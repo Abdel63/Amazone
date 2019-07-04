@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Abdel63/Amazone/issues"
   },
-  "homepage": "https://github.com/Abdel63/Amazone#readme"
+  "homepage": "https://github.com/Abdel63/Amazone#readme",
+  "dependencies": {
+    "tailwindcss": "^1.0.4"
+  }
 }
