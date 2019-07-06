@@ -18,5 +18,10 @@
   "homepage": "https://github.com/Abdel63/Amazone#readme",
   "dependencies": {
     "tailwindcss": "^1.0.4"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.2"
   }
 }
