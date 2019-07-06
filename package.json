@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss main.css -o output.css",
+    "build:prod": "NODE_ENV=production npm run build"
   },
   "repository": {
     "type": "git",
