@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss main.css -o output.css",
+    "build:prod": "NODE_ENV=production npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,10 @@
   "homepage": "https://github.com/Abdel63/Amazone#readme",
   "dependencies": {
     "tailwindcss": "^1.0.4"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.2"
   }
 }
