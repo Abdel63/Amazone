@@ -24,3 +24,11 @@
     transform: rotate(-15deg);
   }
 }
+
+@responsive {
+  .text-shadow: 1px 1px 2px black;
+}
+
+@responsive {
+  .linear-gradient: (to right top, #d5e7e6, #afdee6, #8cd2ee, #73c4f8, #73b1ff);
+}
