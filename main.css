@@ -26,9 +26,13 @@
 }
 
 @responsive {
-  .text-shadow: 1px 1px 2px black;
+  .text-shadow {
+    text-shadow: 2px 2px #ff0000;
+  }
 }
 
 @responsive {
-  .linear-gradient: (to right top, #d5e7e6, #afdee6, #8cd2ee, #73c4f8, #73b1ff);
+  .linear {
+    background-image: linear-gradient(#32aabb, #ecfafc);
+  }
 }
