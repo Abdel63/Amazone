@@ -41,7 +41,7 @@
 }
 
 @responsive {
-  .linear {
+  .linear-gradient-primary {
     background-image: linear-gradient(#32aabb, #ecfafc);
   }
 }
