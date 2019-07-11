@@ -26,13 +26,22 @@
 }
 
 @responsive {
-  .text-shadow {
-    text-shadow: 2px 2px #ff0000;
+  .text-shadow-red {
+    text-shadow: 1px 1px #ff0000;
+  }
+  .text-shadow-grey-66 {
+    text-shadow: 1px 1px #666666;
+  }
+  .text-shadow-grey-63 {
+    text-shadow: 1px 1px #636363;
+  }
+  .text-shadow-blue {
+    text-shadow: 1px 1px #1915a0;
   }
 }
 
 @responsive {
-  .linear {
+  .linear-gradient-primary {
     background-image: linear-gradient(#32aabb, #ecfafc);
   }
 }
